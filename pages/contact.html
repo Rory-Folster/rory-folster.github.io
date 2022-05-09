@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rory's Website</title>
+    <link rel="shortcut icon" type="png" href="./images/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="page_styling/contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1>Rory Folster's<span> Personal Site</span></h1>
+            </div>
+            <ul class="navigation">
+                <a href="../index.html" class="header-btn"><li>Home</li></a>
+                <a href="skills.html" class="header-btn"><li>Skills</li></a>
+                <a href="contact.html" class="header-btn"><li>Contact Me</li></a>
+                <a href="projects.html" class="header-btn"><li>Projects</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contact_text">
+        <h2>If you would like to contact me, please add your name and email address, followed by your message.</h2>
+        <h3>I will reply when I can!</h3>
+    </div>
+
+    <div id="contact_input" class="contact_input">
+        <form action="https://formsubmit.co/058eeb81b84e30bff5214c987d29318d" method="POST">
+            <li><label>Your First Name</label></li>
+            <li><input type="text" name="name" autocomplete="off" required></input></li>
+            <li><label> Your Email</label></li>
+            <li><input type="email" name="email" autocomplete="off" required></input></li>
+            <li><label>Your Message</label></li>
+            <li><input type="message" name="message" autocomplete="off" required style="height: 200px;"></input></li>
+            <li><button type="submit" style="font-family: 'Roboto', sans-serif;">Send Message</button></li>
+        </form>
+    </div>
+</body>
+</html>
